@@ -1,16 +1,17 @@
-# flitter_pr5
+# ПРАКТИЧЕСКАЯ РАБОТА №5.
 
-A new Flutter project.
+##Передача данных между окнами.
 
-## Getting Started
+Цель: реализация передача данных между окнами приложения при помощи использования ключевого слова arguments, а также сохранение текста в плагин SharedPreferences.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Создание правила для навигации.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Инициализация методов, отвечающих за сохранение данных в SharedPreferences.
+
+Создание кнопки, которая с помощью класса Navigator выполняет переход на вторую страницу, а также с помощью метода и параметра arguments передает значение. 
+
+В созданной второй странице необходимо получить данные через обращение к контексту и параметру arguments, а также вывести их в виджете.
+
+Вывод: в ходе выполнения практической работы была реализована передача данных между окнами приложения при помощи использования ключевого слова arguments, а также сохранение текста в плагин SharedPreferences.
